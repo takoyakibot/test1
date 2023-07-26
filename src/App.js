@@ -9,16 +9,16 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/test1/">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/test1/about">About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </nav>
       <Routes>
-        <Route path="/test1/" element={<Home />} />
-        <Route path="/test1/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
