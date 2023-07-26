@@ -29,7 +29,7 @@ const QuizEditor = () => {
   };
 
   const saveQuiz = () => {
-    // クイズ情報を保存する処理（モックの状態で実装しないので、後でバックエンドを考慮して実装）
+    // ダミーのクイズデータを保存する処理（バックエンドの代わりに使用）
     console.log('クイズを保存しました:', selectedImage, fusenCoordinates, isAnswerVisible);
   };
 
